@@ -1,8 +1,8 @@
 # API de Games
-Esta API é utilizada para gerenciar cadastro de games.
+Esta API é utilizada para gerenciar cadastro de games
 ## Endpoints
 ### GET /games
-Endpoint responsável por retornar a listagem de todos os games cadastraods no banco de dados.
+Endpoint responsável por retornar a listagem de todos os games cadastrados no banco de dados
 #### Parâmetros
 Nenhum
 #### Respostas
@@ -14,8 +14,9 @@ Aconteceu alguma falha no processo de autenticação da requisição. Motivos: T
 ### POST /auth
 Endpoint responsável pelo processo de login.
 #### Parâmetros
-Email: email do usuário cadstrado no sistema
-Password: senha do usuário cadastrado no sistema
+email: email do usuário cadstrado no sistema
+
+password: senha do usuário cadastrado no sistema
 #### Respostas
 ##### OK 200
 Você recebeŕa um token JWT para acessar os endpoints protegidos na API.
